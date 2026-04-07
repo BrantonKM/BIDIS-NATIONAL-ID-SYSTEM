@@ -1,0 +1,28 @@
+
+---
+
+# 🟦 3. Docker & PostgreSQL
+
+**docker-compose.yml**
+
+```yaml
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    depends_on:
+      - db
+    volumes:
+      - ./backend:/app/backend
+
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: bidis_user
+      POSTGRES_PASSWORD: bidis_pass
+      POSTGRES_DB: bidis_db
+    ports:
+      - "5432:5432"
