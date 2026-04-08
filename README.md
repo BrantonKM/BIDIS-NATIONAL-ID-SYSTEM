@@ -1,4 +1,4 @@
-# BIDIS - Burundi Integrated Digital Identity System
+# BIDIS - Beirut Integrated Digital Identity System
 
 **Tagline:** One citizen. One ID. One system.
 
@@ -6,7 +6,7 @@
 
 ## Overview
 
-BIDIS is a next-generation, digital national identity system for Burundi.  
+BIDIS is a next-generation, digital national identity system for Beirut.  
 Inspired by Kenya's Huduma / Maisha system, BIDIS enables:
 
 - Birth, Marriage, Death registration
